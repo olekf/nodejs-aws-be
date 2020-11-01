@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Shimano Stradic CI4+",
+    "description": "Spinning Fishing Reel With Front Drag",
+    "id": "27C00571-CE89-43DE-B5F0-58FAEE8D5D24",
+    "price": 239,
+    "count": 10
+  },
+  {
+    "title": "Shimano Syncopate",
+    "description": "Front Drag, Freshwater Spinning Fishing Reel ",
+    "id": "7D2CA80F-4692-448E-B0A9-BD8D47DFCD26",
+    "price": 50,
+    "count": 10
+   },
+  {
+    "title": "Shimano Ultegra",
+    "description": "Spinning Fishing Reel",
+    "id": "416F493D-2BFD-415B-B1BA-EC2EAC0DAAEF",
+    "price": 170,
+    "count": 10
+  },
+  {
+    "title": "Shimano Nasci",
+    "description": "Compact Spinning Reel",
+    "id": "0EBD6B1A-EE08-4510-907A-BAB4EFA18CCB",
+    "price": 132,
+    "count": 10
+  },
+  {
+    "title": "Shimano Sahara",
+    "description": "Fi Spinning Reel",
+    "id": "56396EB7-7A59-4A52-AEC1-CE10BB0D48FF",
+    "price": 120,
+    "count": 10
+  },
+  {
+    "title": "Shimano Stella FJ",
+    "description": "Spinning Fishing Reel ",
+    "id": "4F9B4D13-5072-46D1-9FB3-0A69044D63EC",
+    "price": 15,
+    "count": 10
+  },
+  {
+    "title": "Shimano Sienna FE",
+    "description": "Spinning Reel",
+    "id": "E4D05C0F-6DD8-442E-AB38-758D6B9107DA",
+    "price": 23,
+    "count": 2
+  },
+  {
+    "title": "Stradic FK",
+    "description": "Spinning Reel",
+    "id": "0978D3B4-FDD7-41B1-9F6F-C828CB972E4C",
+    "price": 15,
+    "count": 3
+  }
+]

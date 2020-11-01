@@ -1,0 +1,32 @@
+service: product-service
+
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  stage: dev
+  region: eu-west-1
+  profile: learn-aws
+
+plugins:
+  - serverless-webpack
+
+functions:
+  getProductsList:
+    handler: src/getProductsList.handler
+    events:
+      - http:
+          path: products
+          method: get
+          cors: true
+  getProductsById:
+    handler: src/getProductsById.handler
+    events:
+      - http:
+          path: products/{productId}
+          method: get
+          request:
+            parameters:
+              paths:
+                productId: true
