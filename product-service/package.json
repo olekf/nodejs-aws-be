@@ -1,0 +1,29 @@
+{
+  "name": "product-service",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "sls deploy",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.6.1",
+    "jest": "^26.6.1",
+    "serverless": "^2.8.0",
+    "serverless-webpack": "^5.3.5",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "silent": true,
+    "testMatch": [
+      "<rootDir>/test/**/*.test.js"
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "<rootDir>/src/**/*.js"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+openapi: 3.0.0
+
+info:
+  title: Product Service
+  description: API documentation for Product Service
+  version: 0.1.0
+
+paths:
+  /products:
+    get:
+      summary: Returns all products
+      operationId: getProducts
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Products'
+
+  /products/{productId}:
+    get:
+      summary: Returns product by ID
+      operationId: getProductByID
+      responses:
+        '200':
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Products'
+        '404':
+          description: Product not fount
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Products'
+
+components:
+    Products:
+      type: array
+      description: Array of products
+      items:
+        required:
+          - title
+          - id
+          - price
+          - count
+        type: object
+        properties:
+          title:
+            type: string
+            description: Product title
+          description:
+            type: string
+            description: Product description
+          id:
+            type: string
+            description: Product id
+          price:
+            type: number
+            description: Product price
+          count:
+            type: integer
+            description: Product count
